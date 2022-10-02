@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNopApp", "WebNopApp\WebNopApp.csproj", "{2EA6F651-ED76-4F75-AFA4-104A1EEF2F0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{4F956755-07F0-4E0B-BA25-943E4A77C4DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Core", "Nop.Core\Nop.Core.csproj", "{8B107CB5-D49B-4440-9D7F-C98E4171F245}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Data", "Nop.Data\Nop.Data.csproj", "{11B445F6-9162-4A70-9E72-9E71497FEC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nop.Services", "Nop.Services\Nop.Services.csproj", "{9F5DA1A5-9428-4BC2-A6A6-15A52ABAAED1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0601CE52-1AEF-4DDB-B158-F4CE023F527D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNopApp.Framework", "WebNopApp.Framework\WebNopApp.Framework.csproj", "{DA127BFC-AAA6-4387-8832-51038ADDECFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA6F651-ED76-4F75-AFA4-104A1EEF2F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA6F651-ED76-4F75-AFA4-104A1EEF2F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA6F651-ED76-4F75-AFA4-104A1EEF2F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA6F651-ED76-4F75-AFA4-104A1EEF2F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B107CB5-D49B-4440-9D7F-C98E4171F245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B107CB5-D49B-4440-9D7F-C98E4171F245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B107CB5-D49B-4440-9D7F-C98E4171F245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B107CB5-D49B-4440-9D7F-C98E4171F245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B445F6-9162-4A70-9E72-9E71497FEC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B445F6-9162-4A70-9E72-9E71497FEC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B445F6-9162-4A70-9E72-9E71497FEC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B445F6-9162-4A70-9E72-9E71497FEC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5DA1A5-9428-4BC2-A6A6-15A52ABAAED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5DA1A5-9428-4BC2-A6A6-15A52ABAAED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5DA1A5-9428-4BC2-A6A6-15A52ABAAED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5DA1A5-9428-4BC2-A6A6-15A52ABAAED1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA127BFC-AAA6-4387-8832-51038ADDECFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA127BFC-AAA6-4387-8832-51038ADDECFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA127BFC-AAA6-4387-8832-51038ADDECFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA127BFC-AAA6-4387-8832-51038ADDECFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EA6F651-ED76-4F75-AFA4-104A1EEF2F0C} = {0601CE52-1AEF-4DDB-B158-F4CE023F527D}
+		{8B107CB5-D49B-4440-9D7F-C98E4171F245} = {4F956755-07F0-4E0B-BA25-943E4A77C4DF}
+		{11B445F6-9162-4A70-9E72-9E71497FEC8E} = {4F956755-07F0-4E0B-BA25-943E4A77C4DF}
+		{9F5DA1A5-9428-4BC2-A6A6-15A52ABAAED1} = {4F956755-07F0-4E0B-BA25-943E4A77C4DF}
+		{DA127BFC-AAA6-4387-8832-51038ADDECFB} = {0601CE52-1AEF-4DDB-B158-F4CE023F527D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F057BB68-CB15-4D12-9DD3-B1E94DE26EBC}
+	EndGlobalSection
+EndGlobal

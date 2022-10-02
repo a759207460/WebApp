@@ -1,0 +1,9 @@
+C:\项目\WebNopApp\Nop.Core\bin\Debug\netcoreapp3.1\Nop.Core.deps.json
+C:\项目\WebNopApp\Nop.Core\bin\Debug\netcoreapp3.1\Nop.Core.dll
+C:\项目\WebNopApp\Nop.Core\bin\Debug\netcoreapp3.1\Nop.Core.pdb
+C:\项目\WebNopApp\Nop.Core\obj\Debug\netcoreapp3.1\Nop.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\项目\WebNopApp\Nop.Core\obj\Debug\netcoreapp3.1\Nop.Core.AssemblyInfoInputs.cache
+C:\项目\WebNopApp\Nop.Core\obj\Debug\netcoreapp3.1\Nop.Core.AssemblyInfo.cs
+C:\项目\WebNopApp\Nop.Core\obj\Debug\netcoreapp3.1\Nop.Core.csproj.CoreCompileInputs.cache
+C:\项目\WebNopApp\Nop.Core\obj\Debug\netcoreapp3.1\Nop.Core.dll
+C:\项目\WebNopApp\Nop.Core\obj\Debug\netcoreapp3.1\Nop.Core.pdb

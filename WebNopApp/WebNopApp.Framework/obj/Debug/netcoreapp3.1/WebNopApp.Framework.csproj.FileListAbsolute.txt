@@ -1,0 +1,15 @@
+C:\项目\WebNopApp\WebNopApp.Framework\bin\Debug\netcoreapp3.1\WebNopApp.Framework.deps.json
+C:\项目\WebNopApp\WebNopApp.Framework\bin\Debug\netcoreapp3.1\WebNopApp.Framework.dll
+C:\项目\WebNopApp\WebNopApp.Framework\bin\Debug\netcoreapp3.1\WebNopApp.Framework.pdb
+C:\项目\WebNopApp\WebNopApp.Framework\bin\Debug\netcoreapp3.1\Nop.Core.dll
+C:\项目\WebNopApp\WebNopApp.Framework\bin\Debug\netcoreapp3.1\Nop.Data.dll
+C:\项目\WebNopApp\WebNopApp.Framework\bin\Debug\netcoreapp3.1\Nop.Data.pdb
+C:\项目\WebNopApp\WebNopApp.Framework\bin\Debug\netcoreapp3.1\Nop.Core.pdb
+C:\项目\WebNopApp\WebNopApp.Framework\obj\Debug\netcoreapp3.1\WebNopApp.Framework.csproj.AssemblyReference.cache
+C:\项目\WebNopApp\WebNopApp.Framework\obj\Debug\netcoreapp3.1\WebNopApp.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\项目\WebNopApp\WebNopApp.Framework\obj\Debug\netcoreapp3.1\WebNopApp.Framework.AssemblyInfoInputs.cache
+C:\项目\WebNopApp\WebNopApp.Framework\obj\Debug\netcoreapp3.1\WebNopApp.Framework.AssemblyInfo.cs
+C:\项目\WebNopApp\WebNopApp.Framework\obj\Debug\netcoreapp3.1\WebNopApp.Framework.csproj.CoreCompileInputs.cache
+C:\项目\WebNopApp\WebNopApp.Framework\obj\Debug\netcoreapp3.1\WebNopApp.Framework.csproj.CopyComplete
+C:\项目\WebNopApp\WebNopApp.Framework\obj\Debug\netcoreapp3.1\WebNopApp.Framework.dll
+C:\项目\WebNopApp\WebNopApp.Framework\obj\Debug\netcoreapp3.1\WebNopApp.Framework.pdb
