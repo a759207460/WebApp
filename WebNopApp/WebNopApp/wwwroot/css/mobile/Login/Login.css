@@ -1,0 +1,105 @@
+﻿.wrap {
+    height: 100vh;
+    background-color: #f7f7f7;
+    /* 用弹性布局设置div水平居中 */
+    display: flex;
+    justify-content: center;
+    /* 弹性布局垂直居中 */
+    align-items: center;
+}
+    .wrap input {
+        /* input作为inline-block行内块元素为了好操控，转为块元素 */
+        display: block;
+        /* 
+        问题：为什么去表掉input的outline
+        原因：因为outline不去掉，点击input框内会出现默认样式蓝色外边框
+        补充：表单类的标签都会有这个蓝色外边框，不止input
+         */
+        outline: none;
+        /* 为了方便计算宽高，让内边距和边框都算进元素宽高里面 */
+        box-sizing: border-box;
+    }
+    /* 给界面文字设置居中，此处是文字的公共样式 */
+    .wrap .center {
+        text-align: center;
+        color: #73879c;
+        /* center下面的元素继承center以上两个属性 */
+    }
+/* 一定要注意顺序，先写小在写大 */
+/* 移动端小于576px */
+@media (max-width:576px) {
+    /* 写版心 */
+    .center {
+        width: 86vw;
+    }
+    /* 写h1部分 */
+    h1 {
+        height: 20vh;
+        font-size: 10vw;
+        /* background-color: plum; */
+    }
+
+    .enter {
+        height: 38vh;
+        margin-bottom: 8vh;
+        /* background-color: powderblue; */
+    }
+    /* input样式 */
+    .wrap .center .enter input {
+        border: 1px solid #ddd;
+        font-size: 4vw;
+        /* input转为块元素之后宽度要重新设为100% */
+        width: 100%;
+        height: 8vh;
+        margin-bottom: 2vh;
+        /* 让文字和边框左右边距为px */
+        padding: 0 10px;
+    }
+
+    .wrap .center .enter button {
+        width: 100%;
+        height: 8vh;
+        /* 写胶囊型的border-radius的值是它高度的一半 */
+        border-radius: 4vh;
+        background-color: #73879c;
+        font-size: 5vw;
+        color: #fff;
+        /* 
+          由于上面input写了个margin-botton:2px，
+          而图标注的按钮和input的距离是6px，这个时候按钮的margin-top写4就可以了         
+          */
+        margin-top: 4vh;
+        /* 去掉按钮自带的边框 */
+        border: 0;
+    }
+
+    .foot {
+        /*
+          问题：为什么要使用弹性布局 
+          原因：弹性布局可以让foot里面两个元素转成块级元素，
+          UI图里面foot里两个元素是各自独占一行的
+           */
+        display: flex;
+        /* 弹性布局后非水平垂直居中 */
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2vh;
+    }
+
+        .foot img {
+            /* 图片和学子的文字之间没距离 */
+            margin-right: 10px;
+        }
+
+        .foot p {
+            font-size: 3vw;
+        }
+}
+/* pad mini 大于576px */
+@media (min-width:576px) {
+    /* 复制上面移动端内的媒体查询样式就可以 */
+}
+/* pc大于960px */
+@media (min-width:960px) {
+    /* 复制上面移动端内的媒体查询样式就可以 */
+}
